@@ -12,7 +12,6 @@ import SkillChart from "./components/Skills"
 import ProjectXPChart from "./components/Graph"
 import { SigninForm } from "./SigninForm"
 import UserInfo from "./components/UserInfo"
-import ProjectList from "./components/Projects"
 
 const App = () => {
   const [email, setemail] = useState("")
@@ -76,11 +75,7 @@ const App = () => {
     const totalXp = xpAndGrades[0]
     const totalGrade = xpAndGrades[1]
 
-    console.log(totalLevel, totalSkill, totalXp, totalGrade)
-    console.log("Total Level: ", totalLevel)
-    console.log("Total Skill: ", totalSkill)
-    console.log("Total Xp: ", totalXp)
-    console.log("Total Grade: ", totalGrade)
+
 
     setTotalSKill(totalSkill)
     setTotalxp(totalXp)
