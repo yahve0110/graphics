@@ -70,7 +70,7 @@ const ProjectXPChart = ({ projects }) => {
           <p>Date: {new Date(hoveredProject.created).toLocaleDateString()}</p>
         </div>
       )}
-      <svg width="1500" height="400">
+      <svg width="900" height="400">
         {recentProjects.map((project) => {
           const height = barHeight(project)
           const y = 400 - height - 30
